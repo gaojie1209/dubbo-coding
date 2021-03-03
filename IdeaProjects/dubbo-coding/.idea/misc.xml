@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-service/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-web/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-basic/dubbo-entity/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-basic/dubbo-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-basic/dubbo-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-api/dubbo-product-api/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-service/dubbo-product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-web/dubbo-center/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
