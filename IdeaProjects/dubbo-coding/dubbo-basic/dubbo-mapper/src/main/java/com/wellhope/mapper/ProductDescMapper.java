@@ -1,19 +1,11 @@
 package com.wellhope.mapper;
 
+import com.wellhope.base.BaseDao;
+import com.wellhope.entity.Product;
 import com.wellhope.entity.ProductDesc;
 
-public interface ProductDescMapper {
-    int deleteByPrimaryKey(Integer id);
-
-    int insert(ProductDesc record);
-
-    int insertSelective(ProductDesc record);
-
-    ProductDesc selectByPrimaryKey(Integer id);
-
-    int updateByPrimaryKeySelective(ProductDesc record);
-
-    int updateByPrimaryKeyWithBLOBs(ProductDesc record);
-
-    int updateByPrimaryKey(ProductDesc record);
+/**
+ * @author GaoJ
+ */
+public interface ProductDescMapper extends BaseDao<ProductDesc> {
 }

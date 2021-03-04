@@ -1,6 +1,19 @@
 package com.wellhope.entity;
 
-public class ProductDesc {
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.io.Serializable;
+/**
+ * 商品描述
+ *
+ * @author GaoJ
+ */
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class ProductDesc implements Serializable {
     private Integer id;
 
     private Long productId;

@@ -1,8 +1,21 @@
 package com.wellhope.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class Product {
+/**
+ * 商品
+ *
+ * @author GaoJ
+ */
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Product implements Serializable {
     private Long id;
 
     private String name;
@@ -14,6 +27,10 @@ public class Product {
     private String images;
 
     private String salePoint;
+
+    private Integer typeId;
+
+    private String typeName;
 
     private Date createTime;
 
@@ -67,6 +84,22 @@ public class Product {
 
     public void setSalePoint(String salePoint) {
         this.salePoint = salePoint == null ? null : salePoint.trim();
+    }
+
+    public Integer getTypeId() {
+        return typeId;
+    }
+
+    public void setTypeId(Integer typeId) {
+        this.typeId = typeId;
+    }
+
+    public String getTypeName() {
+        return typeName;
+    }
+
+    public void setTypeName(String typeName) {
+        this.typeName = typeName == null ? null : typeName.trim();
     }
 
     public Date getCreateTime() {

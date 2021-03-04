@@ -1,6 +1,20 @@
 package com.wellhope.entity;
 
-public class ProductType {
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.io.Serializable;
+
+/**
+ * 商品类别
+ *
+ * @author GaoJ
+ */
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class ProductType implements Serializable {
     private Integer id;
 
     private Integer pid;
