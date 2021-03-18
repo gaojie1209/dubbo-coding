@@ -9,6 +9,7 @@ import com.wellhope.vo.ProductVO;
 import java.util.List;
 
 /**
+ * 商品接口
  * @author GaoJ
  * @create 2021-03-02 23:49
  */
