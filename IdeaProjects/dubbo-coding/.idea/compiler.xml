@@ -6,30 +6,38 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-center" />
+        <module name="dubbo-search-api" />
+        <module name="dubbo-mapper" />
+        <module name="dubbo-springboot-redis" />
+        <module name="dubbo-coding" />
+        <module name="dubbo-product-api" />
+        <module name="dubbo-search" />
+        <module name="dubbo-aliyun-sms" />
+        <module name="dubbo-product-service" />
+        <module name="dubbo-register" />
         <module name="dubbo-entity" />
         <module name="dubbo-item" />
         <module name="dubbo-basic" />
-        <module name="dubbo-center" />
         <module name="dubbo-temp" />
-        <module name="dubbo-search-api" />
         <module name="dubbo-index" />
+        <module name="dubbo-springboot-email" />
         <module name="dubbo-rabbitmq-java" />
         <module name="dubbo-service" />
         <module name="duubo-index" />
-        <module name="dubbo-mapper" />
         <module name="dubbo-web" />
-        <module name="dubbo-springboot-redis" />
         <module name="dubbo-search-service" />
         <module name="dubbo-redis" />
-        <module name="dubbo-coding" />
         <module name="dubbo-commons" />
-        <module name="dubbo-product-api" />
-        <module name="dubbo-search" />
-        <module name="dubbo-product-service" />
+        <module name="dubbo-sms-api" />
+        <module name="dubbo-user-api" />
+        <module name="dubbo-user-service" />
+        <module name="dubbo-sms-service" />
         <module name="dubbo-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dubbo-email" target="8" />
       <module name="duubo-index" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -39,9 +47,13 @@
       <module name="dubbo-index" options="-parameters" />
       <module name="dubbo-item" options="-parameters" />
       <module name="dubbo-product-service" options="-parameters" />
+      <module name="dubbo-register" options="-parameters" />
       <module name="dubbo-search" options="-parameters" />
       <module name="dubbo-search-service" options="-parameters" />
+      <module name="dubbo-sms-service" options="-parameters" />
+      <module name="dubbo-springboot-email" options="-parameters" />
       <module name="dubbo-springboot-redis" options="-parameters" />
+      <module name="dubbo-user-service" options="-parameters" />
       <module name="duubo-index" options="-parameters" />
     </option>
   </component>

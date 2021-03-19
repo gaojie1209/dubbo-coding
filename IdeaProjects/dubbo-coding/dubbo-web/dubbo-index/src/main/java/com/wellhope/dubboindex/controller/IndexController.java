@@ -36,7 +36,7 @@ public class IndexController {
         model.addAttribute("productTypes",productTypes);
         return "index";
     }
-
+//    http://www.gj.com:9091/index/listType
     /**
      * 首页ajax商品分类
      * @return

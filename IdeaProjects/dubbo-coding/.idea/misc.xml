@@ -24,6 +24,13 @@
         <option value="$PROJECT_DIR$/dubbo-temp/dubbo-rabbitmq-java/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-temp/dubbo-redis/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-temp/dubbo-springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-api/dubbo-user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-service/dubbo-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-web/dubbo-register/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-temp/dubbo-aliyun-sms/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-api/dubbo-sms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-service/dubbo-sms-service/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-temp/dubbo-springboot-email/pom.xml" />
       </list>
     </option>
   </component>
